@@ -1,19 +1,20 @@
 {
-  "name": "",
-  "author": "",
+  "name": "aP-evaluativo",
+  "author": "Oliver Castelblanco",
   "version": "0.0.1",
-  "description": "",
+  "description": "Recurso evaluativo modelo para aulaPlaneta",
   "dependencies": {
     "angular": "^1.6.4",
-    "angular-animate": "^1.6.4",
-    "angular-aria": "^1.6.4",
-    "angular-route": "^1.6.4",
+    "angular-animate": "^1.6.9",
+    "angular-aria": "^1.6.9",
+    "angular-material": "^1.1.7",
+    "angular-messages": "^1.6.9",
+    "angular-route": "^1.6.9",
     "grunt": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^2.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-ftp-push": "^1.2.0"
+    "grunt-contrib-watch": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -21,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/"
+    "url": "git+https://github.com/AulaPlanetaColombia/recurso-evaluativo"
   },
   "keywords": [
     ""
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com//issues"
+    "url": "https://github.com/AulaPlanetaColombia/recurso-evaluativo/issues"
   },
-  "homepage": "https://github.com//#readme"
+  "homepage": "https://github.com/AulaPlanetaColombia/recurso-evaluativo/#readme"
 }

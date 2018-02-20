@@ -43,36 +43,35 @@ module.exports = function(grunt) {
                             'node_modules/angular/angular.min.js',
                             'node_modules/angular-animate/angular-animate.min.js',
                             'node_modules/angular-aria/angular-aria.min.js',
-                            'node_modules/angular-route/angular-route.min.js'
+                            'node_modules/angular-route/angular-route.min.js',
+                            'node_modules/angular-material/angular-material.min.js'
                         ],
                         dest: 'dist/assets/js/',
                         flatten: true
+                    },
+                    {
+                        expand: true,
+                        src: 'node_modules/angular-material/angular-material.scss',
+                        dest: 'src/sass/md/',
+                        rename: function(dest, src) {
+                            // use the source directory to create the file
+                            // example with your directory structure
+                            //   dest = 'dev/js/'
+                            //   src = 'module1/js/main.js'
+                            return 'src/sass/md/_md.scss';
+                            //dest + src.substring(0, src.indexOf('/')) + '.js';
+                        }
                     }
                 ],
             },
-        }/*,
-        ftp_push: {
-            your_target: {
-                options: {
-                    authKey: "",
-                    host: "",
-                    dest: "/",
-                    port: 21
-                },
-                */
-                //files: [{expand: true, cwd: 'dist', src: '**/*'}]
-                /*
-            }
-        }*/
+        }
     });
 
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-ftp-push');
 
     grunt.registerTask('default', ['watch']);
     grunt.registerTask('actualizar', ['copy', 'sass', 'uglify']);
-    //grunt.registerTask('deploy', ['copy', 'sass', 'uglify', 'ftp_push']);
 };
