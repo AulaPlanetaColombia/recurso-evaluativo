@@ -54,13 +54,15 @@ module.exports = function(grunt) {
                         src: 'node_modules/angular-material/angular-material.scss',
                         dest: 'src/sass/md/',
                         rename: function(dest, src) {
-                            // use the source directory to create the file
-                            // example with your directory structure
-                            //   dest = 'dev/js/'
-                            //   src = 'module1/js/main.js'
                             return 'src/sass/md/_md.scss';
-                            //dest + src.substring(0, src.indexOf('/')) + '.js';
                         }
+                    },
+                    {
+                        expand: true,
+                        cwd: 'node_modules/roboto-fontface/fonts/roboto/',
+                        src: ['Roboto-Regular.*'],
+                        dest: 'dist/assets/fonts/roboto/',
+                        flatten: true
                     }
                 ],
             },

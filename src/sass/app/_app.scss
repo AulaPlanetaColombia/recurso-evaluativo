@@ -1,2 +1,25 @@
 @charset "UTF-8";
-// Tipografias
+.contenedor {
+    .header {
+        .barra {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            z-index: 10;
+        }
+    }
+    .body {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .footer {
+        .barra {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            min-width: 100%;
+            z-index: 10;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "pregunta": "¿Cuál es el gentilicio de los nacidos en CDMX",
+    "respuestas": [
+      {
+        "texto": "Mexicanos",
+        "correcta": 0
+      },
+      {
+        "texto": "Mexiquenses",
+        "correcta": 0
+      },
+      {
+        "texto": "Chilangos",
+        "correcta": 1
+      }
+    ]
+  }
+]
