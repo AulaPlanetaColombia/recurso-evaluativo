@@ -1,0 +1,40 @@
+{
+    "valorMax": 10,
+    "footer": {
+        "enviar": {
+            "exposicion": "Comprobar respuestas",
+            "examen": "Enviar prueba",
+            "revisionAlumno": "Comprobar respuestas",
+            "revisionProfesor": "Comprobar respuestas"
+        },
+        "comprueba": {
+            "boton": {
+                "exposicion": "Aceptar",
+                "examen": "Aceptar",
+                "revisionAlumno": "Aceptar",
+                "revisionProfesor": "Aceptar"
+            },
+            "texto": {
+                "exposicion": "Si haces clic en Aceptar, las preguntas se corregirán y no podrás cambiar las respuestas.",
+                "examen": "Si haces clic en Aceptar, las preguntas serán enviadas a tu profesor y no podrás cambiar las respuestas.",
+                "revisionAlumno": "Aceptar",
+                "revisionProfesor": "Aceptar"
+            }
+        },
+        "resultado": {
+            "boton": {
+                "exposicion": "Ver correctas",
+                "examen": "Ver correctas",
+                "revisionAlumno": "Ver correctas",
+                "revisionProfesor": "Ver correctas"
+            },
+            "texto": {
+                "exposicion": "Tu calificación es",
+                "examen": "Tu calificación es",
+                "revisionAlumno": "Tu calificación es",
+                "revisionProfesor": "Tu calificación es"
+            },
+            "interjeccion": "sobre"
+        }
+    }
+}

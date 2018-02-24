@@ -1,19 +1,929 @@
-[
-  {
-    "pregunta": "¿Cuál es el gentilicio de los nacidos en CDMX",
-    "respuestas": [
-      {
-        "texto": "Mexicanos",
-        "correcta": 0
-      },
-      {
-        "texto": "Mexiquenses",
-        "correcta": 0
-      },
-      {
-        "texto": "Chilangos",
-        "correcta": 1
-      }
+{
+    "titulo": "Super recurso recursivo",
+    "bancos": [
+        {
+            "nombre": "Banco de preguntas 1",
+            "numPreguntas": 5,
+            "mediaComun": {
+                "tipo": "",
+                "contenido": ""
+            },
+            "preguntas": [
+                {
+                    "pregunta": "¿Cuál es el gentilicio de los nacidos en CDMX?",
+                    "media": {
+                        "tipo": "imagen",
+                        "contenido": "mexico.jpg"
+                    },
+                    "respuestas": [
+                        {
+                            "texto": "Mexicanos",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Mexiquenses",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Chilangos",
+                            "correcta": 1
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "¿Cómo se comen los tacos?",
+                    "respuestas": [
+                        {
+                            "texto": "Con tenedor y cuchillo",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Con cuchara",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Con la mano",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Con una servilleta",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Con pincho",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "¿Cuántos olores podemos distinguir según un nuevo estudio?",
+                    "respuestas": [
+                        {
+                            "texto": "100",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "5.000",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "100.000",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "1 billón",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Las gallinas están emparentadas con",
+                    "respuestas": [
+                        {
+                            "texto": "Hipopótamos",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Cocodrilos",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Dinosaurios",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Mastodontes",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Acaba de despertar de su hibernación una nave que se dirige hacia",
+                    "media": {
+                        "tipo": "video",
+                        "contenido": "sistemasolar.mp4"
+                    },
+                    "respuestas": [
+                        {
+                            "texto": "Plutón",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Mercurio",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Júpiter",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Luna",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "¿Cuántas especies contiene el Catálogo de Plantas de Colombia?",
+                    "respuestas": [
+                        {
+                            "texto": "26.000",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "15.000",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "150.000",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "90.000",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Un estudio publicado en Science sugiere que los insectos surgieron hace",
+                    "media": {
+                        "tipo": "audio",
+                        "contenido": "abejorro.mp3"
+                    },
+                    "respuestas": [
+                        {
+                            "texto": "80 millones de años",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "180 millones de años",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "480 millones de años",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "780 millones de años",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Cuando una persona pierde peso, la grasa que tenía se pierde como",
+                    "respuestas": [
+                        {
+                            "texto": "Calor",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Energía",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Dióxido de carbono",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Agua",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Una investigación en los mares del mundo determinó que en ellos flota esta cantidad de material plástico",
+                    "respuestas": [
+                        {
+                            "texto": "270.000 toneladas",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "20.000 toneladas",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "500.000 toneladas",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "800.000 toneladas",
+                            "correcta": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Banco de preguntas 2",
+            "numPreguntas": 3,
+            "mediaComun": {
+                "tipo": "texto",
+                "contenido": "<p>Lorem ipsum dolor <strong>sit amet</strong>, <em>consectetur</em> adipiscing elit. Sed augue enim, pellentesque in dui et, commodo vulputate dolor. Cras hendrerit vehicula mauris, vitae vulputate ligula finibus id. Nam eu ullamcorper eros. Suspendisse varius et lectus nec mattis. Sed dui metus, rhoncus et consequat in, fringilla in nisi. Maecenas vulputate fermentum nunc, vel scelerisque massa rutrum quis. Ut sodales porta bibendum. Suspendisse dui turpis, tristique quis arcu ut, consectetur rhoncus tortor. Aliquam pellentesque nisi a ipsum laoreet, sed gravida libero efficitur.</p><p>Ut sollicitudin vulputate porttitor. Duis ornare efficitur fringilla. Nulla tempor dolor ac nisi suscipit finibus. Maecenas in tortor eget magna malesuada pretium ac in risus. Aenean rhoncus id ipsum vitae ultrices. Nunc convallis rhoncus odio ut imperdiet. Donec eleifend egestas odio at scelerisque. Quisque dapibus, ipsum eget efficitur tempor, lorem nisl posuere mi, sit amet laoreet dolor lacus eget tellus. Donec sed mollis nisl. Cras mollis sodales lobortis. Nam rhoncus, mi sit amet sollicitudin semper, odio nibh scelerisque enim, eget dictum enim dolor eu arcu. Etiam aliquet felis non accumsan molestie. Quisque pellentesque mauris rutrum ultrices vulputate. Etiam commodo, diam sit amet euismod tincidunt, lorem diam sollicitudin sapien, quis maximus tortor ligula vitae mi.</p><p>Vivamus tincidunt, mauris id cursus rhoncus, magna est iaculis sapien, et accumsan odio massa vel velit. Proin finibus urna sed elit suscipit elementum. Fusce elementum luctus massa eget sagittis. Praesent massa quam, porta dapibus urna et, euismod auctor turpis. Nullam vitae hendrerit magna. Ut ut dui bibendum, malesuada est vel, congue erat. Fusce tristique tortor non risus fermentum blandit. Fusce mattis felis sed dolor convallis, eu aliquam turpis auctor. Fusce id mi ut velit feugiat hendrerit et eu eros. Donec a nibh tellus. Nullam in molestie ligula, posuere ultricies nibh. Quisque et enim ullamcorper, tristique ligula nec, varius augue. Aenean lacinia ultricies ligula.</p>"
+            },
+            "preguntas": [
+                {
+                    "pregunta": "La capacidad de digerir alcohol la adquirimos hace",
+                    "respuestas": [
+                        {
+                            "texto": "10 millones de años",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "100.000 años",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "2 millones de años",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "500.000 años",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Científicos desarrollaron en laboratorio",
+                    "respuestas": [
+                        {
+                            "texto": "Un miniintestino",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Un testículo",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Una minilengua",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Un miniestómago",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Un estudio en Plos One reveló que del león africano occidental quedan",
+                    "respuestas": [
+                        {
+                            "texto": "5.000 individuos",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "400 individuos",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "10 individuos",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "2.000 individuos",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Un par de robots cumplieron 10 años en Marte",
+                    "respuestas": [
+                        {
+                            "texto": "Spirit-Opportunity",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Pathfinder-MLO",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Curiosity-Maden",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Viking-Mariner",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Este año se encontró que los árboles viejos",
+                    "respuestas": [
+                        {
+                            "texto": "Mueren primero",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Liberan más oxígeno",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Crecen menos",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Capturan más CO2",
+                            "correcta": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Banco de preguntas 3",
+            "numPreguntas": 12,
+            "mediaComun": {
+                "tipo": "imagen",
+                "contenido": "imagenPrueba.jpg"
+            },
+            "preguntas": [
+                {
+                    "pregunta": "El físico Stephen Hawking escandalizó cuando dijo que",
+                    "respuestas": [
+                        {
+                            "texto": "Hay vida en planetas extrasolares.",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "La velocidad de la luz cambia.",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "No se puede viajar a otros mundos.",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Los agujeros negros no son negros.",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Los neandertales nos dejaron",
+                    "respuestas": [
+                        {
+                            "texto": "Cavernas pintadas.",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Herramientas útiles.",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "20% de sus genes.",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "El color de su piel.",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "La nave Cassini pareció hallar un mar subterráneo en",
+                    "respuestas": [
+                        {
+                            "texto": "Encelado",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Tritón",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Plutón",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Mimas",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Kepler-186 f sería el primer exoplaneta",
+                    "respuestas": [
+                        {
+                            "texto": "Más grande que la Tierra.",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "En tener agua",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "En no tener estrella.",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "En ser oscuro",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Se reportó el hallazgo de un insecto en el que",
+                    "respuestas": [
+                        {
+                            "texto": "No hay hembras.",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "El macho es estéril.",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "La hembra tiene pene.",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "El macho pone huevos",
+                            "correcta": 1
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "A jóvenes les implantaron, a partir de sus propias células",
+                    "respuestas": [
+                        {
+                            "texto": "Vaginas",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Narices",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Pulmones",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Penes",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Investigadores antioqueños crearon una prueba para",
+                    "respuestas": [
+                        {
+                            "texto": "Papiloma vacuno",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Rabia en murciélagos",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Brucelosis canina",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Fiebre aviar",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "¿Qué cuerpo recibió el nombre de un científico antioqueño?",
+                    "respuestas": [
+                        {
+                            "texto": "Cometa",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Luna de Saturno",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Meteorito",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Asteroide",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "El nuevo páramo hallado este año en el Valle de Aburrá se llama",
+                    "respuestas": [
+                        {
+                            "texto": "Belmira 2",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Las Baldías",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "La Esperanza",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Quitasol",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "En el océano hallaron por primera vez",
+                    "respuestas": [
+                        {
+                            "texto": "Rocas de plástico",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Rocas de icopor",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Estrellas negras",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Pulpos enanos",
+                            "correcta": 1
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Un estudio realizado por el CES estableció que el cigarrillo puede matar",
+                    "respuestas": [
+                        {
+                            "texto": "Moscas",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Ratas",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Perros",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Vacas",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "La estrella más lejana detectada hasta hoy por medio óptico está a",
+                    "respuestas": [
+                        {
+                            "texto": "900.000 años luz",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "13.000 años luz",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "5 millones de años luz",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "500 millones de años luz",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Científicos reportaron la creación de un marcapasos",
+                    "respuestas": [
+                        {
+                            "texto": "Inalámbrico",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Muscular",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "De células",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "De proteínas",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "El libro de la biodiversidad colombiana reveló que hay identificadas en el país cerca de",
+                    "respuestas": [
+                        {
+                            "texto": "80.000 especies",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "50.000 especies",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "150.000 especies",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "100.000 especies",
+                            "correcta": 1
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Un estudio reveló que en un beso de 10 segundos se comparten",
+                    "respuestas": [
+                        {
+                            "texto": "80 millones de bacterias",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "10 millones de bacterias",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "100 bacterias",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "1.000 bacterias",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Un nuevo estudio mostró que los perros",
+                    "respuestas": [
+                        {
+                            "texto": "Transmiten tuberculosis",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Sienten odio",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Son celosos",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Transmiten malaria",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Un extenso reporte sugiere que el mundo se encuentra en una extinción masiva. Esta sería la",
+                    "respuestas": [
+                        {
+                            "texto": "Tercera",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Novena",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Séptima",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Sexta",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Una investigación arrojó que los neandertales se extinguieron hace",
+                    "respuestas": [
+                        {
+                            "texto": "40.000 años",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "30.000 años",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "20.000 años",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "10.000 años",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Este año se conoció el genoma de",
+                    "respuestas": [
+                        {
+                            "texto": "Trigo",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Aguacate",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Café",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Naranja",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "La superestructura que se encontró y de la cual hace parte nuestra galaxia se llamó",
+                    "respuestas": [
+                        {
+                            "texto": "Pangea",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Excalibur",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Andromedae",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Laniakea",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "El primer caso de transmisión de conocimiento en aves se encontró en",
+                    "respuestas": [
+                        {
+                            "texto": "Loros",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Pingüinos",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Pelícanos",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Cacatúas",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Un análisis genético reveló que el gato es un animal",
+                    "respuestas": [
+                        {
+                            "texto": "Semisalvaje",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Solitario",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "Nómada",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Social",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Un informe de las aves colombianas reveló que en peligro de extinción se hallan cerca de",
+                    "respuestas": [
+                        {
+                            "texto": "20 especies",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "120 especies",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "1.000 especies",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "50 especies",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Los primeros animales que copularon hace 360 millones de años eran",
+                    "respuestas": [
+                        {
+                            "texto": "Aves",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Homínidos",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Peces",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Reptiles",
+                            "correcta": 1
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Un estudio reportó que la mitad del agua de la Tierra",
+                    "respuestas": [
+                        {
+                            "texto": "Es salada",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Es más vieja que el Sol",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Provino de otro planeta",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Surgió en el Big Bang",
+                            "correcta": 1
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "La nave que descendió sobre el cometa Churyumov-Gerasimenko fue",
+                    "respuestas": [
+                        {
+                            "texto": "Rosetta",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Dawn",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "MRO",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "Philae",
+                            "correcta": 1
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "Al ADN de una bacteria científicos agregaron",
+                    "respuestas": [
+                        {
+                            "texto": "4 proteínas",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "1 cromosoma",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "2 letras",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "3 genes",
+                            "correcta": 0
+                        }
+                    ]
+                },
+                {
+                    "pregunta": "La Nasa probó a finales de año",
+                    "respuestas": [
+                        {
+                            "texto": "20 especies",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "120 especies",
+                            "correcta": 1
+                        },
+                        {
+                            "texto": "1.000 especies",
+                            "correcta": 0
+                        },
+                        {
+                            "texto": "50 especies",
+                            "correcta": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
-  }
-]
+}

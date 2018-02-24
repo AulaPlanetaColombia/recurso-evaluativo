@@ -1,5 +1,29 @@
 <div ng-controller="body as bd">
     <md-content>
-        <h1 class="md-display-1">Pregunta</h1>
+        <fieldset class="standard pregunta" ng-repeat="pregunta in cont.preguntas track by pregunta.id">
+            <legend class="md-display-1">{{$index+' '+pregunta.pregunta}}</legend>
+            <div class="contenido" flex layout-gt-sm="row" layout="column">
+                <div class="media" ng-if="pregunta.media.tipo">
+                    <img class="medio" ng-src="{{bd.rutaMedia+pregunta.media.contenido}}" ng-if="pregunta.media.tipo == 'imagen'">
+                    <ng-bind-html ng-bind-html="pregunta.media.contenido" class="texto-largo" ng-if="pregunta.media.tipo == 'texto'">
+                    </ng-bind-html>
+                    <video class="medio" controls  ng-if="pregunta.media.tipo == 'video'">
+                        <source ng-src="{{bd.rutaMedia+pregunta.media.contenido}}" type="video/mp4">
+                        Su navegador no es compatible con HTML5.
+                    </video>
+                    <audio class="medio" controls="controls" ng-if="pregunta.media.tipo == 'audio'">
+                        <source ng-src="{{bd.rutaMedia+pregunta.media.contenido}}" type="audio/mpeg">
+                        Su navegador no es compatible con HTML5.
+                    </audio>
+                </div>
+                <div layout="column" layout-wrap class="respuestas">
+                    <div class="respuesta" ng-class="cont.resultResp[pregunta.id][respuesta.id]" ng-repeat="respuesta in pregunta.respuestas track by respuesta.id">
+                        <md-checkbox ng-model="cont.resultado[pregunta.id][respuesta.id]" aria-label="{{respuesta.texto}}" class="check">
+                            {{respuesta.texto}}
+                        </md-checkbox>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
     </md-content>
 </div>

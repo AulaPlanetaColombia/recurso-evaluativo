@@ -1,4 +1,12 @@
 @charset "UTF-8";
+$xs: 599px;
+$sm: 959px;
+$md: 1279px;
+$lg: 1919px;
+$gt-xs: $xs + 1;
+$gt-sm: $sm + 1;
+$gt-md: $md + 1;
+$gt-lg: $lg + 1;
 .contenedor {
     .header {
         .barra {
@@ -12,6 +20,55 @@
     .body {
         padding-top: 48px;
         padding-bottom: 48px;
+        .pregunta {
+            margin: 2em;
+            .contenido {
+                .media {
+                    margin: 1em;
+                    @media (max-width: $sm) {
+                        max-width: 100%;
+                    }
+                    @media (min-width: $gt-sm) {
+                        max-width: 50%;
+                    }
+                    .medio {
+                        max-width: 100%;
+                        height: auto;
+                    }
+                }
+                .respuestas {
+                    margin: 0.5em;
+                    width: 100%;
+                    .respuesta {
+                        padding: 0.5em;
+                        margin: 0.5em;
+                        .check {
+                            margin-top: auto;
+                            margin-bottom: auto;
+                        }
+                        &.correcta, &.incorrecta {
+                            position: relative;
+                            &::after {
+                                position: absolute;
+                                right: 0em;
+                            }
+                        }
+                        &.correcta {
+                            border: solid 1px green;
+                            &::after {
+                                content: "ok";
+                            }
+                        }
+                        &.incorrecta {
+                            border: solid 1px red;
+                            &::after {
+                                content: "ko";
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
     .footer {
         .barra {
