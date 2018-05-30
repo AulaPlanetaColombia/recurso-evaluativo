@@ -1,7 +1,7 @@
 <md-content class="barra" ng-controller="footer as fr" ng-init="cont.estadoCalif = 0">
     <md-toolbar>
         <div class="md-toolbar-tools">
-            <md-button class="md-raised" aria-label="{{cont.interfaz.footer.enviar[cont.estado]}}" ng-click="cont.estadoCalif = cont.estadoCalif + 1" ng-if="cont.estadoCalif == 0">
+            <md-button class="md-raised" aria-label="{{cont.interfaz.footer.enviar[cont.estado]}}" ng-click="cont.corregir()" ng-if="cont.estadoCalif == 0">
                 {{cont.interfaz.footer.enviar[cont.estado]}}
             </md-button>
             <h2 flex md-truncate ng-if="cont.estadoCalif == 1">
@@ -16,7 +16,13 @@
                 {{cont.interfaz.footer.resultado.interjeccion}}
                 {{cont.interfaz.valorMax}}
             </h2>
-            <md-button class="md-raised" aria-label="{{cont.interfaz.footer.comprueba.boton[cont.estado]}}" ng-click="cont.enviar()" ng-if="cont.estadoCalif == 2">
+            <md-button class="md-raised" aria-label="{{cont.interfaz.footer.resultado.boton[cont.estado]}}" ng-click="cont.resultados()" ng-if="cont.estadoCalif == 2">
+                {{cont.interfaz.footer.resultado.boton[cont.estado]}}
+            </md-button>
+            <h2 flex md-truncate ng-if="cont.estadoCalif == 3">
+                {{'Reintentar ejercicio o algo así'}}
+            </h2>
+            <md-button class="md-raised" aria-label="{{cont.interfaz.footer.resultado.boton[cont.estado]}}" ng-click="cont.resultados()" ng-if="cont.estadoCalif == 3">
                 {{cont.interfaz.footer.resultado.boton[cont.estado]}}
             </md-button>
         </div>

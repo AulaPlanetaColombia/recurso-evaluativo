@@ -64,6 +64,13 @@ module.exports = function(grunt) {
                         src: ['Roboto-Regular.*'],
                         dest: 'dist/assets/fonts/roboto/',
                         flatten: true
+                    },
+                    {
+                        expand: true,
+                        cwd: 'node_modules/@fortawesome/fontawesome-free-webfonts/webfonts/',
+                        src: ['fa-solid*.*'],
+                        dest: 'dist/assets/fonts/fontawesome/',
+                        flatten: true
                     }
                 ],
             },

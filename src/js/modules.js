@@ -29,8 +29,12 @@ app.controller('contenedor', ['datos', function(datos){
             cont.puntajeTotal = 0;
         });
     });
+    cont.corregir = function() {
+        cont.estadoCalif++;
+    };
     cont.enviar = function(){
         var totalPreg = cont.preguntas.length;
+        cont.resultResp = [];
         for (var i = 0; i < totalPreg;i++) {
             var preg = cont.preguntas[i];
             var totalResp = preg.respuestas.length;
@@ -43,17 +47,26 @@ app.controller('contenedor', ['datos', function(datos){
                 }
             }
             valorXrespuesta = cont.valorXpregunta/numCorrectas;
+            cont.resultResp[i] = [];
             for (e = 0; e < totalResp;e++) {
                 resp = preg.respuestas[e];
-                console.log('respuesta '+i+'-');
-                if (cont.resultado[i][e] && resp.correcta) {
-                    cont.puntajeTotal = cont.puntajeTotal + valorXrespuesta;
-                    cont.resultResp[i][e] = 'correcto';
+                if (cont.resultado && cont.resultado[i] && cont.resultado[i][e]) {
+                    if (resp.correcta) {
+                        cont.puntajeTotal = cont.puntajeTotal + valorXrespuesta;
+                        cont.resultResp[i][e] = 'correcta';
+                    } else {
+                        cont.resultResp[i][e] = 'incorrecta';
+                    }
                 } else {
-                    cont.resultResp[i][e] = 'incorrecto';
+                    if (resp.correcta) {
+                        cont.resultResp[i][e] = 'correcta';
+                    }
                 }
             }
         }
+        cont.estadoCalif++;
+    };
+    cont.resultados = function() {
         cont.estadoCalif++;
     };
     function procesaBancos(resp) {

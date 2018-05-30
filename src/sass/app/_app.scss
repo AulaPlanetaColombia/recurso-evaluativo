@@ -48,21 +48,25 @@ $gt-lg: $lg + 1;
                         }
                         &.correcta, &.incorrecta {
                             position: relative;
-                            &::after {
+                            &::before {
+                                font-family: "Font Awesome 5 Free";
+                                right: 0.25em;
                                 position: absolute;
-                                right: 0em;
+                                font-size: 1.5em;
                             }
                         }
                         &.correcta {
                             border: solid 1px green;
-                            &::after {
-                                content: "ok";
+                            &::before {
+                                content: "\f058";
+                                color: green;
                             }
                         }
                         &.incorrecta {
                             border: solid 1px red;
-                            &::after {
-                                content: "ko";
+                            &::before {
+                                content: "\f057";
+                                color: red;
                             }
                         }
                     }
