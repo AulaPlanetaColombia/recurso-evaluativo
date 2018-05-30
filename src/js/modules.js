@@ -45,6 +45,7 @@ app.controller('contenedor', ['datos', function(datos){
             valorXrespuesta = cont.valorXpregunta/numCorrectas;
             for (e = 0; e < totalResp;e++) {
                 resp = preg.respuestas[e];
+                console.log('respuesta '+i+'-');
                 if (cont.resultado[i][e] && resp.correcta) {
                     cont.puntajeTotal = cont.puntajeTotal + valorXrespuesta;
                     cont.resultResp[i][e] = 'correcto';
