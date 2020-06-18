@@ -5,7 +5,7 @@
   "description": "Recurso evaluativo modelo para aulaPlaneta",
   "dependencies": {
     "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
-    "angular": "^1.7.9",
+    "angular": "^1.8.0",
     "angular-animate": "^1.7.0",
     "angular-aria": "^1.7.0",
     "angular-material": "^1.1.9",
